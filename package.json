@@ -3,9 +3,10 @@
   "packageManager": "yarn@4.9.2",
   "type": "module",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "build": "tsc",
-    "fetch-index": "ts-node src/fetch-index.ts"
+    "fetch-index": "ts-node src/fetch-index.ts",
+    "fetch-driver-pages": "ts-node src/fetch-driver-pages.ts",
+    "fetch-driver-xmls": "ts-node src/fetch-driver-xmls.ts",
+    "convert-layouts": "ts-node src/convert-layouts.ts"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
