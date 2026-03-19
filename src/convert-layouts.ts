@@ -1,8 +1,6 @@
 import * as cheerio from "cheerio";
-import HumanObjectDiff from "human-object-diff";
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import slugify from "slugify";
-import { OLD_KEYBOARD_LAYOUTS_FROM_KBDLAYOUT } from "./const/old-keyboard-layouts-from-kbdlayout.ts";
 import { SC_TO_KEYCODE } from "./const/sc-to-keycode.ts";
 import type {
   KeyBoardLayout,
@@ -29,11 +27,9 @@ const RESULT_SELECTORS: { key: keyof KeyboardLayoutKey; selector: string }[] = [
   },
 ];
 
-const { diff } = new HumanObjectDiff({});
 const links = getDriverLinks();
 const keyboardLayouts: KeyBoardLayout[] = [];
 for (const link of links) {
-  console.log("https://kbdlayout.info" + link);
   const pageContent = readFileSync(
     `res/drivers/${link.replaceAll("/", "").toLowerCase()}.html`,
     "utf-8",
@@ -90,13 +86,17 @@ for (const link of links) {
       const resultElement = $(element).find(selector);
       const text = $(resultElement).attr("Text");
       if (text) {
-        obj[key] = text;
+        obj[key] = { type: "text", value: text };
       }
       const deadKeyTable = $(resultElement).find("DeadKeyTable");
       if (deadKeyTable.length > 0) {
-        const name = $(deadKeyTable).attr("Name");
         const accent = $(deadKeyTable).attr("Accent");
-        console.log({ name, accent });
+        if (!accent) {
+          throw new Error(
+            `DeadKeyTable for key ${keyCode} with result ${selector} does not have an Accent attribute.`,
+          );
+        }
+        obj[key] = { type: "dead-key", value: accent };
       }
     }
     if (Object.keys(obj).length === 0) {
@@ -123,13 +123,9 @@ for (const link of links) {
   }
 }
 
-for (const kl of keyboardLayouts) {
-  const oldKl = OLD_KEYBOARD_LAYOUTS_FROM_KBDLAYOUT.find((o) => o.id === kl.id);
-  if (!oldKl) {
-    throw new Error(`No old layout found for ${kl.id}`);
-  }
-  const result = diff(oldKl, kl);
-  if (Object.keys(result).length !== 0) {
-    console.log(kl, "result", result);
-  }
-}
+keyboardLayouts.sort((a, b) => a.name.localeCompare(b.name));
+
+writeFileSync(
+  "res/keyboard-layouts.json",
+  JSON.stringify(keyboardLayouts, null, 2),
+);
