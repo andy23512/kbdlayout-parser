@@ -1,0 +1,22 @@
+{
+  "name": "kbdlayout-parser",
+  "packageManager": "yarn@4.9.2",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "fetch-index": "ts-node src/fetch-index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "human-object-diff": "^3.0.0",
+    "slugify": "^1.6.8"
+  }
+}
