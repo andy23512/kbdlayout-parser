@@ -4,6 +4,10 @@
   "type": "module",
   "scripts": {
     "fetch-index": "ts-node src/fetch-index.ts",
+    "fetch-languages": "ts-node src/fetch-languages.ts",
+    "parse-languages-tree": "ts-node src/parse-languages-tree.ts",
+    "test-languages-tree": "ts-node src/test-languages-tree.ts",
+    "verify-languages-tree": "ts-node src/verify-languages-tree-artifacts.ts",
     "fetch-driver-pages": "ts-node src/fetch-driver-pages.ts",
     "fetch-driver-xmls": "ts-node src/fetch-driver-xmls.ts",
     "convert-layouts": "ts-node src/convert-layouts.ts"
