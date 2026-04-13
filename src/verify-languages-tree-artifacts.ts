@@ -40,6 +40,14 @@ function verifyLayoutIds(nodes: LanguageTreeNode[]): void {
         generateLayoutId(layout.name),
         `Expected layout id for '${layout.name}' to match shared generator logic.`,
       );
+      assert.ok(
+        !("klid" in (layout as unknown as Record<string, unknown>)),
+        "Expected layout object to omit deprecated field 'klid'.",
+      );
+      assert.ok(
+        !("href" in (layout as unknown as Record<string, unknown>)),
+        "Expected layout object to omit deprecated field 'href'.",
+      );
     }
     if (node.kind === "group") {
       verifyLayoutIds(node.children);

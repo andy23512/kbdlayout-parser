@@ -21,3 +21,5 @@ This project can parse `res/languages.html` into deterministic JavaScript-consum
 - Previous wrapper format `{ "version": 1, "source": "res/languages.html", "nodes": [...] }` is no longer emitted or accepted by repository verification scripts.
 - **BREAKING**: Each layout object in languages tree data now includes a required `id` field.
 - Layout `id` generation follows the same shared rule as `src/convert-layouts.ts` via `src/layout-id.ts`.
+- **BREAKING**: Layout objects in languages tree data no longer include `klid` and `href`.
+- Downstream consumers should use `id` and `name` as canonical layout identifiers/labels.

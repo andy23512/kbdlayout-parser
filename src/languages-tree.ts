@@ -95,8 +95,6 @@ function parseLayoutLi(
 
   return {
     id: generateLayoutId(name),
-    klid,
-    href,
     name,
     isDefault,
     isDefaultFromOtherLanguage,
