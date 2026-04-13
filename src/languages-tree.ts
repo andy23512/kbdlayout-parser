@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
+import { generateLayoutId } from "./layout-id.ts";
 import type {
   LanguageLayoutRef,
   LanguageTreeData,
@@ -93,6 +94,7 @@ function parseLayoutLi(
     isDefaultFromOtherLanguage || /(^|\s)\*(?!\*)/.test(itemText);
 
   return {
+    id: generateLayoutId(name),
     klid,
     href,
     name,

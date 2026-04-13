@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { parseLanguagesHtml } from "./languages-tree.ts";
+import { generateLayoutId } from "./layout-id.ts";
 import type { LanguageTreeNode } from "./model/languages-tree.models.ts";
 
 function findByCode(
@@ -32,6 +33,24 @@ assert.equal(
 );
 
 assert.ok(firstPass.length > 0, "Expected at least one root language node.");
+
+function assertLayoutIds(nodes: LanguageTreeNode[]): void {
+  for (const node of nodes) {
+    for (const layout of node.layouts) {
+      assert.equal(
+        layout.id,
+        generateLayoutId(layout.name),
+        `Expected layout id for '${layout.name}' to match shared generator output.`,
+      );
+      assert.ok(layout.id.length > 0, "Expected non-empty layout id.");
+    }
+    if (node.kind === "group") {
+      assertLayoutIds(node.children);
+    }
+  }
+}
+
+assertLayoutIds(firstPass);
 
 const english = findByCode(firstPass, "en");
 assert.ok(english, "Expected language code 'en' to exist in parsed tree.");

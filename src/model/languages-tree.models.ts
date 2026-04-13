@@ -1,4 +1,5 @@
 export interface LanguageLayoutRef {
+  id: string;
   klid: string;
   href: string;
   name: string;

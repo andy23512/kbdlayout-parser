@@ -19,3 +19,5 @@ This project can parse `res/languages.html` into deterministic JavaScript-consum
 
 - **BREAKING**: `res/languages-tree-data.json` now uses a root array of language nodes.
 - Previous wrapper format `{ "version": 1, "source": "res/languages.html", "nodes": [...] }` is no longer emitted or accepted by repository verification scripts.
+- **BREAKING**: Each layout object in languages tree data now includes a required `id` field.
+- Layout `id` generation follows the same shared rule as `src/convert-layouts.ts` via `src/layout-id.ts`.

@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import { readFileSync, writeFileSync } from "node:fs";
-import slugify from "slugify";
 import { SC_TO_KEYCODE } from "./const/sc-to-keycode.ts";
+import { generateLayoutId } from "./layout-id.ts";
 import type {
   KeyBoardLayout,
   KeyboardLayoutKey,
@@ -106,16 +106,7 @@ for (const link of links) {
   });
   for (const { klid, layoutDisplayName } of layouts) {
     keyboardLayouts.push({
-      id: slugify.default(
-        layoutDisplayName
-          .replaceAll("É", "")
-          .replaceAll("’", "")
-          .replaceAll("_", "-"),
-        {
-          lower: true,
-          remove: /[.,()]/g,
-        },
-      ),
+      id: generateLayoutId(layoutDisplayName),
       name: layoutDisplayName,
       reference: `https://kbdlayout.info/${klid}/`,
       layout,

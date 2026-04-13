@@ -7,6 +7,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Afrikaans",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -21,6 +22,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Albanian",
     "layouts": [
       {
+        "id": "albanian",
         "klid": "0000041c",
         "href": "/0000041c",
         "name": "Albanian",
@@ -35,6 +37,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Alsatian",
     "layouts": [
       {
+        "id": "swiss-german",
         "klid": "00000807",
         "href": "/00000807",
         "name": "Swiss German",
@@ -49,6 +52,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Alsatian (France)",
         "layouts": [
           {
+            "id": "french-legacy-azerty",
             "klid": "0000040c",
             "href": "/0000040c",
             "name": "French (Legacy, AZERTY)",
@@ -65,6 +69,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Arabic",
     "layouts": [
       {
+        "id": "arabic-101",
         "klid": "00000401",
         "href": "/00000401",
         "name": "Arabic (101)",
@@ -79,6 +84,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Arabic (Algeria)",
         "layouts": [
           {
+            "id": "arabic-102-azerty",
             "klid": "00020401",
             "href": "/00020401",
             "name": "Arabic (102) AZERTY",
@@ -93,6 +99,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Arabic (Morocco)",
         "layouts": [
           {
+            "id": "arabic-102-azerty",
             "klid": "00020401",
             "href": "/00020401",
             "name": "Arabic (102) AZERTY",
@@ -107,6 +114,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Arabic (Saudi Arabia)",
         "layouts": [
           {
+            "id": "arabic-101",
             "klid": "00000401",
             "href": "/00000401",
             "name": "Arabic (101)",
@@ -114,6 +122,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "arabic-102",
             "klid": "00010401",
             "href": "/00010401",
             "name": "Arabic (102)",
@@ -121,6 +130,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "arabic-102-azerty",
             "klid": "00020401",
             "href": "/00020401",
             "name": "Arabic (102) AZERTY",
@@ -135,6 +145,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Arabic (Tunisia)",
         "layouts": [
           {
+            "id": "arabic-102-azerty",
             "klid": "00020401",
             "href": "/00020401",
             "name": "Arabic (102) AZERTY",
@@ -151,6 +162,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Armenian",
     "layouts": [
       {
+        "id": "armenian-eastern-legacy",
         "klid": "0000042b",
         "href": "/0000042b",
         "name": "Armenian Eastern (Legacy)",
@@ -158,6 +170,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "armenian-phonetic",
         "klid": "0002042b",
         "href": "/0002042b",
         "name": "Armenian Phonetic",
@@ -165,6 +178,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "armenian-typewriter",
         "klid": "0003042b",
         "href": "/0003042b",
         "name": "Armenian Typewriter",
@@ -172,6 +186,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "armenian-western-legacy",
         "klid": "0001042b",
         "href": "/0001042b",
         "name": "Armenian Western (Legacy)",
@@ -186,6 +201,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Assamese",
     "layouts": [
       {
+        "id": "assamese-inscript",
         "klid": "0000044d",
         "href": "/0000044d",
         "name": "Assamese - INSCRIPT",
@@ -206,6 +222,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Azerbaijani (Cyrillic)",
         "layouts": [
           {
+            "id": "azerbaijani-cyrillic",
             "klid": "0000082c",
             "href": "/0000082c",
             "name": "Azerbaijani Cyrillic",
@@ -220,6 +237,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Azerbaijani (Latin)",
         "layouts": [
           {
+            "id": "azerbaijani-standard",
             "klid": "0001042c",
             "href": "/0001042c",
             "name": "Azerbaijani (Standard)",
@@ -227,6 +245,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "azerbaijani-latin",
             "klid": "0000042c",
             "href": "/0000042c",
             "name": "Azerbaijani Latin",
@@ -243,6 +262,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Bangla",
     "layouts": [
       {
+        "id": "bangla",
         "klid": "00000445",
         "href": "/00000445",
         "name": "Bangla",
@@ -257,6 +277,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Bengali (India)",
         "layouts": [
           {
+            "id": "bangla",
             "klid": "00000445",
             "href": "/00000445",
             "name": "Bangla",
@@ -264,6 +285,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "bangla-inscript",
             "klid": "00020445",
             "href": "/00020445",
             "name": "Bangla - INSCRIPT",
@@ -271,6 +293,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "bangla-inscript-legacy",
             "klid": "00010445",
             "href": "/00010445",
             "name": "Bangla - INSCRIPT (Legacy)",
@@ -293,6 +316,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Bashkir",
         "layouts": [
           {
+            "id": "bashkir",
             "klid": "0000046d",
             "href": "/0000046d",
             "name": "Bashkir",
@@ -309,6 +333,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Basque",
     "layouts": [
       {
+        "id": "spanish",
         "klid": "0000040a",
         "href": "/0000040a",
         "name": "Spanish",
@@ -323,6 +348,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Belarusian",
     "layouts": [
       {
+        "id": "belarusian",
         "klid": "00000423",
         "href": "/00000423",
         "name": "Belarusian",
@@ -337,6 +363,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Bosnian (Latin)",
     "layouts": [
       {
+        "id": "standard",
         "klid": "0000041a",
         "href": "/0000041a",
         "name": "Standard",
@@ -351,6 +378,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Bosnian (Cyrillic)",
         "layouts": [
           {
+            "id": "bosnian-cyrillic",
             "klid": "0000201a",
             "href": "/0000201a",
             "name": "Bosnian (Cyrillic)",
@@ -373,6 +401,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Breton",
         "layouts": [
           {
+            "id": "french-legacy-azerty",
             "klid": "0000040c",
             "href": "/0000040c",
             "name": "French (Legacy, AZERTY)",
@@ -395,6 +424,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Buginese",
         "layouts": [
           {
+            "id": "buginese",
             "klid": "000b0c00",
             "href": "/000b0c00",
             "name": "Buginese",
@@ -411,6 +441,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Bulgarian",
     "layouts": [
       {
+        "id": "bulgarian",
         "klid": "00030402",
         "href": "/00030402",
         "name": "Bulgarian",
@@ -418,6 +449,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "bulgarian-latin",
         "klid": "00010402",
         "href": "/00010402",
         "name": "Bulgarian (Latin)",
@@ -425,6 +457,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "bulgarian-phonetic-traditional",
         "klid": "00040402",
         "href": "/00040402",
         "name": "Bulgarian (Phonetic Traditional)",
@@ -432,6 +465,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "bulgarian-phonetic",
         "klid": "00020402",
         "href": "/00020402",
         "name": "Bulgarian (Phonetic)",
@@ -439,6 +473,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "bulgarian-typewriter",
         "klid": "00000402",
         "href": "/00000402",
         "name": "Bulgarian (Typewriter)",
@@ -453,6 +488,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Burmese",
     "layouts": [
       {
+        "id": "myanmar-phonetic-order",
         "klid": "00010c00",
         "href": "/00010c00",
         "name": "Myanmar (Phonetic order)",
@@ -460,6 +496,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "myanmar-visual-order",
         "klid": "00130c00",
         "href": "/00130c00",
         "name": "Myanmar (Visual order)",
@@ -474,6 +511,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Catalan",
     "layouts": [
       {
+        "id": "spanish",
         "klid": "0000040a",
         "href": "/0000040a",
         "name": "Spanish",
@@ -494,6 +532,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Central Atlas Tamazight (Latin)",
         "layouts": [
           {
+            "id": "central-atlas-tamazight",
             "klid": "0000085f",
             "href": "/0000085f",
             "name": "Central Atlas Tamazight",
@@ -508,6 +547,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Central Atlas Tamazight (Tifinagh)",
         "layouts": [
           {
+            "id": "tifinagh-basic",
             "klid": "0000105f",
             "href": "/0000105f",
             "name": "Tifinagh (Basic)",
@@ -515,6 +555,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "tifinagh-extended",
             "klid": "0001105f",
             "href": "/0001105f",
             "name": "Tifinagh (Extended)",
@@ -529,6 +570,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Central Atlas Tamazight (Tifinagh)",
         "layouts": [
           {
+            "id": "arabic-102-azerty",
             "klid": "00020401",
             "href": "/00020401",
             "name": "Arabic (102) AZERTY",
@@ -551,6 +593,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Corsican",
         "layouts": [
           {
+            "id": "french-legacy-azerty",
             "klid": "0000040c",
             "href": "/0000040c",
             "name": "French (Legacy, AZERTY)",
@@ -567,6 +610,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Croatian",
     "layouts": [
       {
+        "id": "standard",
         "klid": "0000041a",
         "href": "/0000041a",
         "name": "Standard",
@@ -581,6 +625,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Czech",
     "layouts": [
       {
+        "id": "czech",
         "klid": "00000405",
         "href": "/00000405",
         "name": "Czech",
@@ -588,6 +633,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "czech-qwerty",
         "klid": "00010405",
         "href": "/00010405",
         "name": "Czech (QWERTY)",
@@ -595,6 +641,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "czech-programmers",
         "klid": "00020405",
         "href": "/00020405",
         "name": "Czech Programmers",
@@ -609,6 +656,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Danish",
     "layouts": [
       {
+        "id": "danish",
         "klid": "00000406",
         "href": "/00000406",
         "name": "Danish",
@@ -629,6 +677,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Dehong Dai",
         "layouts": [
           {
+            "id": "tai-le",
             "klid": "00030c00",
             "href": "/00030c00",
             "name": "Tai Le",
@@ -645,6 +694,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Divehi",
     "layouts": [
       {
+        "id": "divehi-phonetic",
         "klid": "00000465",
         "href": "/00000465",
         "name": "Divehi Phonetic",
@@ -652,6 +702,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "divehi-typewriter",
         "klid": "00010465",
         "href": "/00010465",
         "name": "Divehi Typewriter",
@@ -666,6 +717,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Dutch",
     "layouts": [
       {
+        "id": "united-states-international",
         "klid": "00020409",
         "href": "/00020409",
         "name": "United States-International",
@@ -680,6 +732,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Dutch (Belgium)",
         "layouts": [
           {
+            "id": "belgian-period",
             "klid": "00000813",
             "href": "/00000813",
             "name": "Belgian (Period)",
@@ -694,6 +747,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Dutch (Netherlands)",
         "layouts": [
           {
+            "id": "dutch",
             "klid": "00000413",
             "href": "/00000413",
             "name": "Dutch",
@@ -701,6 +755,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "united-states-international",
             "klid": "00020409",
             "href": "/00020409",
             "name": "United States-International",
@@ -717,6 +772,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Dzongkha",
     "layouts": [
       {
+        "id": "dzongkha",
         "klid": "00000c51",
         "href": "/00000c51",
         "name": "Dzongkha",
@@ -731,6 +787,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "English",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -745,6 +802,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (Canada)",
         "layouts": [
           {
+            "id": "canadian-french",
             "klid": "00001009",
             "href": "/00001009",
             "name": "Canadian French",
@@ -752,6 +810,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "canadian-multilingual-standard",
             "klid": "00011009",
             "href": "/00011009",
             "name": "Canadian Multilingual Standard",
@@ -759,6 +818,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "us",
             "klid": "00000409",
             "href": "/00000409",
             "name": "US",
@@ -773,6 +833,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (India)",
         "layouts": [
           {
+            "id": "english-india",
             "klid": "00004009",
             "href": "/00004009",
             "name": "English (India)",
@@ -787,6 +848,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (Ireland)",
         "layouts": [
           {
+            "id": "irish",
             "klid": "00001809",
             "href": "/00001809",
             "name": "Irish",
@@ -794,6 +856,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "scottish-gaelic",
             "klid": "00011809",
             "href": "/00011809",
             "name": "Scottish Gaelic",
@@ -808,6 +871,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (New Zealand)",
         "layouts": [
           {
+            "id": "nz-aotearoa",
             "klid": "00001409",
             "href": "/00001409",
             "name": "NZ Aotearoa",
@@ -822,6 +886,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (United Kingdom)",
         "layouts": [
           {
+            "id": "united-kingdom",
             "klid": "00000809",
             "href": "/00000809",
             "name": "United Kingdom",
@@ -836,6 +901,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "English (United States)",
         "layouts": [
           {
+            "id": "colemak",
             "klid": "00060409",
             "href": "/00060409",
             "name": "Colemak",
@@ -843,6 +909,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "united-states-dvorak",
             "klid": "00010409",
             "href": "/00010409",
             "name": "United States-Dvorak",
@@ -850,6 +917,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "united-states-dvorak-for-left-hand",
             "klid": "00030409",
             "href": "/00030409",
             "name": "United States-Dvorak for left hand",
@@ -857,6 +925,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "united-states-dvorak-for-right-hand",
             "klid": "00040409",
             "href": "/00040409",
             "name": "United States-Dvorak for right hand",
@@ -864,6 +933,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "united-states-international",
             "klid": "00020409",
             "href": "/00020409",
             "name": "United States-International",
@@ -871,6 +941,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "us",
             "klid": "00000409",
             "href": "/00000409",
             "name": "US",
@@ -878,6 +949,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "us-english-table-for-ibm-arabic-238-l",
             "klid": "00050409",
             "href": "/00050409",
             "name": "US English Table for IBM Arabic 238_L",
@@ -894,6 +966,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Estonian",
     "layouts": [
       {
+        "id": "estonian",
         "klid": "00000425",
         "href": "/00000425",
         "name": "Estonian",
@@ -914,6 +987,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Etruscan",
         "layouts": [
           {
+            "id": "old-italic",
             "klid": "000f0c00",
             "href": "/000f0c00",
             "name": "Old Italic",
@@ -930,6 +1004,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Faroese",
     "layouts": [
       {
+        "id": "faeroese",
         "klid": "00000438",
         "href": "/00000438",
         "name": "Faeroese",
@@ -937,6 +1012,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "danish",
         "klid": "00000406",
         "href": "/00000406",
         "name": "Danish",
@@ -951,6 +1027,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Filipino",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -965,6 +1042,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Finnish",
     "layouts": [
       {
+        "id": "finnish",
         "klid": "0000040b",
         "href": "/0000040b",
         "name": "Finnish",
@@ -979,6 +1057,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "French",
     "layouts": [
       {
+        "id": "french-legacy-azerty",
         "klid": "0000040c",
         "href": "/0000040c",
         "name": "French (Legacy, AZERTY)",
@@ -993,6 +1072,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "French (Belgium)",
         "layouts": [
           {
+            "id": "belgian-comma",
             "klid": "0001080c",
             "href": "/0001080c",
             "name": "Belgian (Comma)",
@@ -1000,6 +1080,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "belgian-french",
             "klid": "0000080c",
             "href": "/0000080c",
             "name": "Belgian French",
@@ -1014,6 +1095,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "French (Canada)",
         "layouts": [
           {
+            "id": "canadian-french-legacy",
             "klid": "00000c0c",
             "href": "/00000c0c",
             "name": "Canadian French (Legacy)",
@@ -1021,6 +1103,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "canadian-french",
             "klid": "00001009",
             "href": "/00001009",
             "name": "Canadian French",
@@ -1035,6 +1118,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "French (France)",
         "layouts": [
           {
+            "id": "french-legacy-azerty",
             "klid": "0000040c",
             "href": "/0000040c",
             "name": "French (Legacy, AZERTY)",
@@ -1042,6 +1126,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "french-standard-azerty",
             "klid": "0001040c",
             "href": "/0001040c",
             "name": "French (Standard, AZERTY)",
@@ -1049,6 +1134,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "french-standard-bpo",
             "klid": "0002040c",
             "href": "/0002040c",
             "name": "French (Standard, BÉPO)",
@@ -1063,6 +1149,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "French (Luxembourg)",
         "layouts": [
           {
+            "id": "swiss-french",
             "klid": "0000100c",
             "href": "/0000100c",
             "name": "Swiss French",
@@ -1077,6 +1164,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "French (Switzerland)",
         "layouts": [
           {
+            "id": "swiss-french",
             "klid": "0000100c",
             "href": "/0000100c",
             "name": "Swiss French",
@@ -1093,6 +1181,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Frisian",
     "layouts": [
       {
+        "id": "united-states-international",
         "klid": "00020409",
         "href": "/00020409",
         "name": "United States-International",
@@ -1113,6 +1202,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Fulah (ADLaM)",
         "layouts": [
           {
+            "id": "adlam",
             "klid": "00140c00",
             "href": "/00140c00",
             "name": "ADLaM",
@@ -1127,6 +1217,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Fulah (Latin)",
         "layouts": [
           {
+            "id": "wolof",
             "klid": "00000488",
             "href": "/00000488",
             "name": "Wolof",
@@ -1143,6 +1234,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Galician",
     "layouts": [
       {
+        "id": "spanish",
         "klid": "0000040a",
         "href": "/0000040a",
         "name": "Spanish",
@@ -1157,6 +1249,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Georgian",
     "layouts": [
       {
+        "id": "georgian-ergonomic",
         "klid": "00020437",
         "href": "/00020437",
         "name": "Georgian (Ergonomic)",
@@ -1164,6 +1257,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "georgian-legacy",
         "klid": "00000437",
         "href": "/00000437",
         "name": "Georgian (Legacy)",
@@ -1171,6 +1265,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "georgian-mes",
         "klid": "00030437",
         "href": "/00030437",
         "name": "Georgian (MES)",
@@ -1178,6 +1273,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "georgian-old-alphabets",
         "klid": "00040437",
         "href": "/00040437",
         "name": "Georgian (Old Alphabets)",
@@ -1185,6 +1281,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "georgian-qwerty",
         "klid": "00010437",
         "href": "/00010437",
         "name": "Georgian (QWERTY)",
@@ -1199,6 +1296,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "German",
     "layouts": [
       {
+        "id": "german",
         "klid": "00000407",
         "href": "/00000407",
         "name": "German",
@@ -1213,6 +1311,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "German (Germany)",
         "layouts": [
           {
+            "id": "german",
             "klid": "00000407",
             "href": "/00000407",
             "name": "German",
@@ -1220,6 +1319,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "german-ibm",
             "klid": "00010407",
             "href": "/00010407",
             "name": "German (IBM)",
@@ -1227,6 +1327,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "german-extended-e1",
             "klid": "00020407",
             "href": "/00020407",
             "name": "German Extended (E1)",
@@ -1234,6 +1335,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "german-extended-e2",
             "klid": "00030407",
             "href": "/00030407",
             "name": "German Extended (E2)",
@@ -1248,6 +1350,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "German (Liechtenstein)",
         "layouts": [
           {
+            "id": "swiss-german",
             "klid": "00000807",
             "href": "/00000807",
             "name": "Swiss German",
@@ -1262,6 +1365,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "German (Switzerland)",
         "layouts": [
           {
+            "id": "swiss-german",
             "klid": "00000807",
             "href": "/00000807",
             "name": "Swiss German",
@@ -1284,6 +1388,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Futhark",
         "layouts": [
           {
+            "id": "futhark",
             "klid": "00120c00",
             "href": "/00120c00",
             "name": "Futhark",
@@ -1306,6 +1411,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Gothic",
         "layouts": [
           {
+            "id": "gothic",
             "klid": "000c0c00",
             "href": "/000c0c00",
             "name": "Gothic",
@@ -1322,6 +1428,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Greek",
     "layouts": [
       {
+        "id": "greek",
         "klid": "00000408",
         "href": "/00000408",
         "name": "Greek",
@@ -1329,6 +1436,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-220",
         "klid": "00010408",
         "href": "/00010408",
         "name": "Greek (220)",
@@ -1336,6 +1444,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-220-latin",
         "klid": "00030408",
         "href": "/00030408",
         "name": "Greek (220) Latin",
@@ -1343,6 +1452,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-319",
         "klid": "00020408",
         "href": "/00020408",
         "name": "Greek (319)",
@@ -1350,6 +1460,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-319-latin",
         "klid": "00040408",
         "href": "/00040408",
         "name": "Greek (319) Latin",
@@ -1357,6 +1468,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-latin",
         "klid": "00050408",
         "href": "/00050408",
         "name": "Greek Latin",
@@ -1364,6 +1476,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "greek-polytonic",
         "klid": "00060408",
         "href": "/00060408",
         "name": "Greek Polytonic",
@@ -1378,6 +1491,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Guarani",
     "layouts": [
       {
+        "id": "guarani",
         "klid": "00000474",
         "href": "/00000474",
         "name": "Guarani",
@@ -1392,6 +1506,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Gujarati",
     "layouts": [
       {
+        "id": "gujarati",
         "klid": "00000447",
         "href": "/00000447",
         "name": "Gujarati",
@@ -1412,6 +1527,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Hausa (Latin)",
         "layouts": [
           {
+            "id": "hausa",
             "klid": "00000468",
             "href": "/00000468",
             "name": "Hausa",
@@ -1428,6 +1544,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Hawaiian",
     "layouts": [
       {
+        "id": "hawaiian",
         "klid": "00000475",
         "href": "/00000475",
         "name": "Hawaiian",
@@ -1442,6 +1559,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Hebrew",
     "layouts": [
       {
+        "id": "hebrew",
         "klid": "0000040d",
         "href": "/0000040d",
         "name": "Hebrew",
@@ -1449,6 +1567,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "hebrew-standard",
         "klid": "0002040d",
         "href": "/0002040d",
         "name": "Hebrew (Standard)",
@@ -1463,6 +1582,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Hebrew (Israel)",
         "layouts": [
           {
+            "id": "hebrew-standard-2018",
             "klid": "0003040d",
             "href": "/0003040d",
             "name": "Hebrew (Standard, 2018)",
@@ -1479,6 +1599,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Hindi",
     "layouts": [
       {
+        "id": "devanagari-inscript",
         "klid": "00000439",
         "href": "/00000439",
         "name": "Devanagari - INSCRIPT",
@@ -1486,6 +1607,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "hindi-traditional",
         "klid": "00010439",
         "href": "/00010439",
         "name": "Hindi Traditional",
@@ -1500,6 +1622,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Hungarian",
     "layouts": [
       {
+        "id": "hungarian",
         "klid": "0000040e",
         "href": "/0000040e",
         "name": "Hungarian",
@@ -1507,6 +1630,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "hungarian-101-key",
         "klid": "0001040e",
         "href": "/0001040e",
         "name": "Hungarian 101-key",
@@ -1533,6 +1657,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chakma (Chakma, Bangladesh)",
             "layouts": [
               {
+                "id": "us",
                 "klid": "00000409",
                 "href": "/00000409",
                 "name": "US",
@@ -1557,6 +1682,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Cherokee (Cherokee)",
         "layouts": [
           {
+            "id": "cherokee-nation",
             "klid": "0000045c",
             "href": "/0000045c",
             "name": "Cherokee Nation",
@@ -1564,6 +1690,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "cherokee-phonetic",
             "klid": "0001045c",
             "href": "/0001045c",
             "name": "Cherokee Phonetic",
@@ -1592,6 +1719,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chinese (Simplified, China)",
             "layouts": [
               {
+                "id": "chinese-simplified-us",
                 "klid": "00000804",
                 "href": "/00000804",
                 "name": "Chinese (Simplified) - US",
@@ -1606,6 +1734,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chinese (Simplified, Singapore)",
             "layouts": [
               {
+                "id": "chinese-simplified-singapore-us",
                 "klid": "00001004",
                 "href": "/00001004",
                 "name": "Chinese (Simplified, Singapore) - US",
@@ -1628,6 +1757,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chinese (Traditional, Hong Kong SAR)",
             "layouts": [
               {
+                "id": "chinese-traditional-hong-kong-sar-us",
                 "klid": "00000c04",
                 "href": "/00000c04",
                 "name": "Chinese (Traditional, Hong Kong S.A.R.) - US",
@@ -1642,6 +1772,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chinese (Traditional, Macao SAR)",
             "layouts": [
               {
+                "id": "chinese-traditional-macao-sar-us",
                 "klid": "00001404",
                 "href": "/00001404",
                 "name": "Chinese (Traditional, Macao S.A.R.) - US",
@@ -1656,6 +1787,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Chinese (Traditional, Taiwan)",
             "layouts": [
               {
+                "id": "chinese-traditional-us",
                 "klid": "00000404",
                 "href": "/00000404",
                 "name": "Chinese (Traditional) - US",
@@ -1674,6 +1806,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Icelandic",
     "layouts": [
       {
+        "id": "icelandic",
         "klid": "0000040f",
         "href": "/0000040f",
         "name": "Icelandic",
@@ -1694,6 +1827,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Igbo",
         "layouts": [
           {
+            "id": "igbo",
             "klid": "00000470",
             "href": "/00000470",
             "name": "Igbo",
@@ -1710,6 +1844,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Indonesian",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -1730,6 +1865,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Inuktitut (Canadian Aboriginal Syllabics)",
         "layouts": [
           {
+            "id": "inuktitut-naqittaut",
             "klid": "0001045d",
             "href": "/0001045d",
             "name": "Inuktitut - Naqittaut",
@@ -1744,6 +1880,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Inuktitut (Syllabics, Canada)",
             "layouts": [
               {
+                "id": "inuktitut-nattilik",
                 "klid": "0002045d",
                 "href": "/0002045d",
                 "name": "Inuktitut - Nattilik",
@@ -1760,6 +1897,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Inuktitut (Latin)",
         "layouts": [
           {
+            "id": "inuktitut-latin",
             "klid": "0000085d",
             "href": "/0000085d",
             "name": "Inuktitut - Latin",
@@ -1776,6 +1914,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Irish",
     "layouts": [
       {
+        "id": "irish",
         "klid": "00001809",
         "href": "/00001809",
         "name": "Irish",
@@ -1790,6 +1929,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "isiXhosa",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -1804,6 +1944,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "isiZulu",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -1818,6 +1959,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Italian",
     "layouts": [
       {
+        "id": "italian",
         "klid": "00000410",
         "href": "/00000410",
         "name": "Italian",
@@ -1832,6 +1974,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Italian (Italy)",
         "layouts": [
           {
+            "id": "italian",
             "klid": "00000410",
             "href": "/00000410",
             "name": "Italian",
@@ -1839,6 +1982,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "italian-142",
             "klid": "00010410",
             "href": "/00010410",
             "name": "Italian (142)",
@@ -1853,6 +1997,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Italian (Switzerland)",
         "layouts": [
           {
+            "id": "swiss-french",
             "klid": "0000100c",
             "href": "/0000100c",
             "name": "Swiss French",
@@ -1869,6 +2014,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Japanese",
     "layouts": [
       {
+        "id": "japanese",
         "klid": "00000411",
         "href": "/00000411",
         "name": "Japanese",
@@ -1889,6 +2035,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Javanese (Javanese)",
         "layouts": [
           {
+            "id": "javanese",
             "klid": "00110c00",
             "href": "/00110c00",
             "name": "Javanese",
@@ -1911,6 +2058,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "K’iche’",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -1927,6 +2075,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Kalaallisut",
     "layouts": [
       {
+        "id": "greenlandic",
         "klid": "0000046f",
         "href": "/0000046f",
         "name": "Greenlandic",
@@ -1934,6 +2083,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "danish",
         "klid": "00000406",
         "href": "/00000406",
         "name": "Danish",
@@ -1948,6 +2098,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Kannada",
     "layouts": [
       {
+        "id": "kannada",
         "klid": "0000044b",
         "href": "/0000044b",
         "name": "Kannada",
@@ -1968,6 +2119,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Kanuri (Latin)",
         "layouts": [
           {
+            "id": "us",
             "klid": "00000409",
             "href": "/00000409",
             "name": "US",
@@ -1990,6 +2142,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Kashmiri (Devanagari)",
         "layouts": [
           {
+            "id": "hindi-traditional",
             "klid": "00010439",
             "href": "/00010439",
             "name": "Hindi Traditional",
@@ -2006,6 +2159,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Kazakh",
     "layouts": [
       {
+        "id": "kazakh",
         "klid": "0000043f",
         "href": "/0000043f",
         "name": "Kazakh",
@@ -2020,6 +2174,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Khmer",
     "layouts": [
       {
+        "id": "khmer",
         "klid": "00000453",
         "href": "/00000453",
         "name": "Khmer",
@@ -2027,6 +2182,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "khmer-nida",
         "klid": "00010453",
         "href": "/00010453",
         "name": "Khmer (NIDA)",
@@ -2041,6 +2197,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Kinyarwanda",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -2055,6 +2212,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Kiswahili",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -2069,6 +2227,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Konkani",
     "layouts": [
       {
+        "id": "devanagari-inscript",
         "klid": "00000439",
         "href": "/00000439",
         "name": "Devanagari - INSCRIPT",
@@ -2083,6 +2242,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Korean",
     "layouts": [
       {
+        "id": "korean",
         "klid": "00000412",
         "href": "/00000412",
         "name": "Korean",
@@ -2103,6 +2263,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Central Kurdish",
         "layouts": [
           {
+            "id": "central-kurdish",
             "klid": "00000492",
             "href": "/00000492",
             "name": "Central Kurdish",
@@ -2125,6 +2286,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Kyrgyz",
         "layouts": [
           {
+            "id": "kyrgyz-cyrillic",
             "klid": "00000440",
             "href": "/00000440",
             "name": "Kyrgyz Cyrillic",
@@ -2141,6 +2303,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Lao",
     "layouts": [
       {
+        "id": "lao",
         "klid": "00000454",
         "href": "/00000454",
         "name": "Lao",
@@ -2155,6 +2318,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Latin",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -2169,6 +2333,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Latvian",
     "layouts": [
       {
+        "id": "latvian",
         "klid": "00000426",
         "href": "/00000426",
         "name": "Latvian",
@@ -2176,6 +2341,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "latvian-qwerty",
         "klid": "00010426",
         "href": "/00010426",
         "name": "Latvian (QWERTY)",
@@ -2183,6 +2349,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "latvian-standard",
         "klid": "00020426",
         "href": "/00020426",
         "name": "Latvian (Standard)",
@@ -2203,6 +2370,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Lisu (Lisu)",
         "layouts": [
           {
+            "id": "lisu-basic",
             "klid": "00070c00",
             "href": "/00070c00",
             "name": "Lisu (Basic)",
@@ -2210,6 +2378,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "lisu-standard",
             "klid": "00080c00",
             "href": "/00080c00",
             "name": "Lisu (Standard)",
@@ -2226,6 +2395,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Lithuanian",
     "layouts": [
       {
+        "id": "lithuanian",
         "klid": "00010427",
         "href": "/00010427",
         "name": "Lithuanian",
@@ -2233,6 +2403,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "lithuanian-ibm",
         "klid": "00000427",
         "href": "/00000427",
         "name": "Lithuanian IBM",
@@ -2240,6 +2411,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "lithuanian-standard",
         "klid": "00020427",
         "href": "/00020427",
         "name": "Lithuanian Standard",
@@ -2254,6 +2426,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Lower Sorbian",
     "layouts": [
       {
+        "id": "sorbian-standard",
         "klid": "0002042e",
         "href": "/0002042e",
         "name": "Sorbian Standard",
@@ -2274,6 +2447,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Xishuangbanna Dai",
         "layouts": [
           {
+            "id": "new-tai-lue",
             "klid": "00020c00",
             "href": "/00020c00",
             "name": "New Tai Lue",
@@ -2290,6 +2464,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Luxembourgish",
     "layouts": [
       {
+        "id": "luxembourgish",
         "klid": "0000046e",
         "href": "/0000046e",
         "name": "Luxembourgish",
@@ -2304,6 +2479,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Macedonian",
     "layouts": [
       {
+        "id": "macedonian",
         "klid": "0000042f",
         "href": "/0000042f",
         "name": "Macedonian",
@@ -2311,6 +2487,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "macedonian-standard",
         "klid": "0001042f",
         "href": "/0001042f",
         "name": "Macedonian - Standard",
@@ -2325,6 +2502,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Malay",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -2339,6 +2517,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Malayalam",
     "layouts": [
       {
+        "id": "malayalam",
         "klid": "0000044c",
         "href": "/0000044c",
         "name": "Malayalam",
@@ -2353,6 +2532,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Maltese",
     "layouts": [
       {
+        "id": "maltese-47-key",
         "klid": "0000043a",
         "href": "/0000043a",
         "name": "Maltese 47-Key",
@@ -2360,6 +2540,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "maltese-48-key",
         "klid": "0001043a",
         "href": "/0001043a",
         "name": "Maltese 48-Key",
@@ -2380,6 +2561,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Manipuri",
         "layouts": [
           {
+            "id": "bangla",
             "klid": "00000445",
             "href": "/00000445",
             "name": "Bangla",
@@ -2396,6 +2578,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Maori",
     "layouts": [
       {
+        "id": "maori",
         "klid": "00000481",
         "href": "/00000481",
         "name": "Maori",
@@ -2416,6 +2599,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Mapuche",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -2432,6 +2616,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Marathi",
     "layouts": [
       {
+        "id": "marathi",
         "klid": "0000044e",
         "href": "/0000044e",
         "name": "Marathi",
@@ -2452,6 +2637,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Mohawk",
         "layouts": [
           {
+            "id": "us",
             "klid": "00000409",
             "href": "/00000409",
             "name": "US",
@@ -2474,6 +2660,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Mongolian (Cyrillic)",
         "layouts": [
           {
+            "id": "mongolian-cyrillic",
             "klid": "00000450",
             "href": "/00000450",
             "name": "Mongolian Cyrillic",
@@ -2488,6 +2675,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Mongolian (Phags-pa)",
         "layouts": [
           {
+            "id": "phags-pa",
             "klid": "000a0c00",
             "href": "/000a0c00",
             "name": "Phags-pa",
@@ -2502,6 +2690,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Mongolian (Traditional Mongolian)",
         "layouts": [
           {
+            "id": "mongolian-mongolian-script",
             "klid": "00000850",
             "href": "/00000850",
             "name": "Mongolian (Mongolian Script)",
@@ -2509,6 +2698,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "traditional-mongolian-standard",
             "klid": "00010850",
             "href": "/00010850",
             "name": "Traditional Mongolian (Standard)",
@@ -2523,6 +2713,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Mongolian (Traditional Mongolian, PRC)",
             "layouts": [
               {
+                "id": "traditional-mongolian-mns",
                 "klid": "00020850",
                 "href": "/00020850",
                 "name": "Traditional Mongolian (MNS)",
@@ -2541,6 +2732,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "N’ko",
     "layouts": [
       {
+        "id": "nko",
         "klid": "00090c00",
         "href": "/00090c00",
         "name": "N’Ko",
@@ -2555,6 +2747,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Nepali",
     "layouts": [
       {
+        "id": "nepali",
         "klid": "00000461",
         "href": "/00000461",
         "name": "Nepali",
@@ -2575,6 +2768,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Northern Sami",
         "layouts": [
           {
+            "id": "norwegian-with-sami",
             "klid": "0000043b",
             "href": "/0000043b",
             "name": "Norwegian with Sami",
@@ -2589,6 +2783,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Northern Sami (Finland)",
             "layouts": [
               {
+                "id": "finnish-with-sami",
                 "klid": "0001083b",
                 "href": "/0001083b",
                 "name": "Finnish with Sami",
@@ -2603,6 +2798,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Northern Sami (Norway)",
             "layouts": [
               {
+                "id": "norwegian-with-sami",
                 "klid": "0000043b",
                 "href": "/0000043b",
                 "name": "Norwegian with Sami",
@@ -2610,6 +2806,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
                 "isDefaultFromOtherLanguage": false
               },
               {
+                "id": "sami-extended-norway",
                 "klid": "0001043b",
                 "href": "/0001043b",
                 "name": "Sami Extended Norway",
@@ -2624,6 +2821,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Northern Sami (Sweden)",
             "layouts": [
               {
+                "id": "finnish-with-sami",
                 "klid": "0001083b",
                 "href": "/0001083b",
                 "name": "Finnish with Sami",
@@ -2631,6 +2829,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
                 "isDefaultFromOtherLanguage": false
               },
               {
+                "id": "sami-extended-finland-sweden",
                 "klid": "0002083b",
                 "href": "/0002083b",
                 "name": "Sami Extended Finland-Sweden",
@@ -2638,6 +2837,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
                 "isDefaultFromOtherLanguage": false
               },
               {
+                "id": "swedish-with-sami",
                 "klid": "0000083b",
                 "href": "/0000083b",
                 "name": "Swedish with Sami",
@@ -2656,6 +2856,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Norwegian (Bokmål)",
     "layouts": [
       {
+        "id": "norwegian",
         "klid": "00000414",
         "href": "/00000414",
         "name": "Norwegian",
@@ -2670,6 +2871,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Norwegian (Nynorsk)",
     "layouts": [
       {
+        "id": "norwegian",
         "klid": "00000414",
         "href": "/00000414",
         "name": "Norwegian",
@@ -2690,6 +2892,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Occitan",
         "layouts": [
           {
+            "id": "french-legacy-azerty",
             "klid": "0000040c",
             "href": "/0000040c",
             "name": "French (Legacy, AZERTY)",
@@ -2706,6 +2909,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Odia",
     "layouts": [
       {
+        "id": "odia",
         "klid": "00000448",
         "href": "/00000448",
         "name": "Odia",
@@ -2726,6 +2930,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Old Irish",
         "layouts": [
           {
+            "id": "ogham",
             "klid": "00040c00",
             "href": "/00040c00",
             "name": "Ogham",
@@ -2742,6 +2947,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Oromo",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -2762,6 +2968,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Osage",
         "layouts": [
           {
+            "id": "osage",
             "klid": "00150c00",
             "href": "/00150c00",
             "name": "Osage",
@@ -2778,6 +2985,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Pashto",
     "layouts": [
       {
+        "id": "pashto-afghanistan",
         "klid": "00000463",
         "href": "/00000463",
         "name": "Pashto (Afghanistan)",
@@ -2792,6 +3000,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Persian",
     "layouts": [
       {
+        "id": "persian",
         "klid": "00000429",
         "href": "/00000429",
         "name": "Persian",
@@ -2799,6 +3008,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "persian-standard",
         "klid": "00050429",
         "href": "/00050429",
         "name": "Persian (Standard)",
@@ -2813,6 +3023,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Persian (Afghanistan)",
         "layouts": [
           {
+            "id": "persian-standard",
             "klid": "00050429",
             "href": "/00050429",
             "name": "Persian (Standard)",
@@ -2829,6 +3040,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Polish",
     "layouts": [
       {
+        "id": "polish-214",
         "klid": "00010415",
         "href": "/00010415",
         "name": "Polish (214)",
@@ -2836,6 +3048,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "polish-programmers",
         "klid": "00000415",
         "href": "/00000415",
         "name": "Polish (Programmers)",
@@ -2850,6 +3063,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Portuguese",
     "layouts": [
       {
+        "id": "portuguese-brazil-abnt",
         "klid": "00000416",
         "href": "/00000416",
         "name": "Portuguese (Brazil ABNT)",
@@ -2864,6 +3078,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Portuguese (Brazil)",
         "layouts": [
           {
+            "id": "portuguese-brazil-abnt",
             "klid": "00000416",
             "href": "/00000416",
             "name": "Portuguese (Brazil ABNT)",
@@ -2871,6 +3086,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "portuguese-brazil-abnt2",
             "klid": "00010416",
             "href": "/00010416",
             "name": "Portuguese (Brazil ABNT2)",
@@ -2885,6 +3101,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Portuguese (Portugal)",
         "layouts": [
           {
+            "id": "portuguese",
             "klid": "00000816",
             "href": "/00000816",
             "name": "Portuguese",
@@ -2901,6 +3118,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Punjabi (Gurmukhi)",
     "layouts": [
       {
+        "id": "punjabi",
         "klid": "00000446",
         "href": "/00000446",
         "name": "Punjabi",
@@ -2915,6 +3133,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Punjabi (Arabic)",
         "layouts": [
           {
+            "id": "urdu",
             "klid": "00000420",
             "href": "/00000420",
             "name": "Urdu",
@@ -2931,6 +3150,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Quechua",
     "layouts": [
       {
+        "id": "latin-american",
         "klid": "0000080a",
         "href": "/0000080a",
         "name": "Latin American",
@@ -2945,6 +3165,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Romanian",
     "layouts": [
       {
+        "id": "romanian-standard",
         "klid": "00010418",
         "href": "/00010418",
         "name": "Romanian (Standard)",
@@ -2959,6 +3180,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Romanian (Romania)",
         "layouts": [
           {
+            "id": "romanian-legacy",
             "klid": "00000418",
             "href": "/00000418",
             "name": "Romanian (Legacy)",
@@ -2966,6 +3188,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "romanian-programmers",
             "klid": "00020418",
             "href": "/00020418",
             "name": "Romanian (Programmers)",
@@ -2973,6 +3196,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "romanian-standard",
             "klid": "00010418",
             "href": "/00010418",
             "name": "Romanian (Standard)",
@@ -2989,6 +3213,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Romansh",
     "layouts": [
       {
+        "id": "swiss-german",
         "klid": "00000807",
         "href": "/00000807",
         "name": "Swiss German",
@@ -3003,6 +3228,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Russian",
     "layouts": [
       {
+        "id": "russian",
         "klid": "00000419",
         "href": "/00000419",
         "name": "Russian",
@@ -3010,6 +3236,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "russian-mnemonic",
         "klid": "00020419",
         "href": "/00020419",
         "name": "Russian - Mnemonic",
@@ -3017,6 +3244,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "russian-typewriter",
         "klid": "00010419",
         "href": "/00010419",
         "name": "Russian (Typewriter)",
@@ -3037,6 +3265,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Sakha",
         "layouts": [
           {
+            "id": "sakha",
             "klid": "00000485",
             "href": "/00000485",
             "name": "Sakha",
@@ -3059,6 +3288,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Inari Sami",
         "layouts": [
           {
+            "id": "finnish-with-sami",
             "klid": "0001083b",
             "href": "/0001083b",
             "name": "Finnish with Sami",
@@ -3081,6 +3311,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Skolt Sami",
         "layouts": [
           {
+            "id": "finnish-with-sami",
             "klid": "0001083b",
             "href": "/0001083b",
             "name": "Finnish with Sami",
@@ -3103,6 +3334,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Southern Sami",
         "layouts": [
           {
+            "id": "swedish-with-sami",
             "klid": "0000083b",
             "href": "/0000083b",
             "name": "Swedish with Sami",
@@ -3117,6 +3349,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Southern Sami (Norway)",
             "layouts": [
               {
+                "id": "norwegian-with-sami",
                 "klid": "0000043b",
                 "href": "/0000043b",
                 "name": "Norwegian with Sami",
@@ -3141,6 +3374,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Lule Sami",
         "layouts": [
           {
+            "id": "swedish-with-sami",
             "klid": "0000083b",
             "href": "/0000083b",
             "name": "Swedish with Sami",
@@ -3155,6 +3389,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Lule Sami (Norway)",
             "layouts": [
               {
+                "id": "norwegian-with-sami",
                 "klid": "0000043b",
                 "href": "/0000043b",
                 "name": "Norwegian with Sami",
@@ -3179,6 +3414,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Sanskrit",
         "layouts": [
           {
+            "id": "devanagari-inscript",
             "klid": "00000439",
             "href": "/00000439",
             "name": "Devanagari - INSCRIPT",
@@ -3201,6 +3437,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Santali (Ol Chiki)",
         "layouts": [
           {
+            "id": "ol-chiki",
             "klid": "000d0c00",
             "href": "/000d0c00",
             "name": "Ol Chiki",
@@ -3223,6 +3460,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Scottish Gaelic",
         "layouts": [
           {
+            "id": "scottish-gaelic",
             "klid": "00011809",
             "href": "/00011809",
             "name": "Scottish Gaelic",
@@ -3245,6 +3483,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Serbian (Cyrillic)",
         "layouts": [
           {
+            "id": "serbian-cyrillic",
             "klid": "00000c1a",
             "href": "/00000c1a",
             "name": "Serbian (Cyrillic)",
@@ -3259,6 +3498,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Serbian (Cyrillic, Serbia and Montenegro (Former))",
             "layouts": [
               {
+                "id": "serbian-cyrillic",
                 "klid": "00000c1a",
                 "href": "/00000c1a",
                 "name": "Serbian (Cyrillic)",
@@ -3275,6 +3515,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Serbian (Latin)",
         "layouts": [
           {
+            "id": "serbian-latin",
             "klid": "0000081a",
             "href": "/0000081a",
             "name": "Serbian (Latin)",
@@ -3289,6 +3530,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "name": "Serbian (Latin, Serbia and Montenegro (Former))",
             "layouts": [
               {
+                "id": "serbian-latin",
                 "klid": "0000081a",
                 "href": "/0000081a",
                 "name": "Serbian (Latin)",
@@ -3307,6 +3549,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Sesotho sa Leboa",
     "layouts": [
       {
+        "id": "sesotho-sa-leboa",
         "klid": "0000046c",
         "href": "/0000046c",
         "name": "Sesotho sa Leboa",
@@ -3321,6 +3564,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Setswana",
     "layouts": [
       {
+        "id": "setswana",
         "klid": "00000432",
         "href": "/00000432",
         "name": "Setswana",
@@ -3341,6 +3585,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Sindhi (Arabic)",
         "layouts": [
           {
+            "id": "urdu",
             "klid": "00000420",
             "href": "/00000420",
             "name": "Urdu",
@@ -3355,6 +3600,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Sindhi (Devanagari)",
         "layouts": [
           {
+            "id": "hindi-traditional",
             "klid": "00010439",
             "href": "/00010439",
             "name": "Hindi Traditional",
@@ -3371,6 +3617,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Sinhala",
     "layouts": [
       {
+        "id": "sinhala",
         "klid": "0000045b",
         "href": "/0000045b",
         "name": "Sinhala",
@@ -3378,6 +3625,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "sinhala-wij-9",
         "klid": "0001045b",
         "href": "/0001045b",
         "name": "Sinhala - Wij 9",
@@ -3392,6 +3640,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Slovak",
     "layouts": [
       {
+        "id": "slovak",
         "klid": "0000041b",
         "href": "/0000041b",
         "name": "Slovak",
@@ -3399,6 +3648,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "slovak-qwerty",
         "klid": "0001041b",
         "href": "/0001041b",
         "name": "Slovak (QWERTY)",
@@ -3413,6 +3663,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Slovenian",
     "layouts": [
       {
+        "id": "slovenian",
         "klid": "00000424",
         "href": "/00000424",
         "name": "Slovenian",
@@ -3427,6 +3678,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Somali (Latin)",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -3441,6 +3693,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Somali (Osmanya)",
         "layouts": [
           {
+            "id": "osmanya",
             "klid": "000e0c00",
             "href": "/000e0c00",
             "name": "Osmanya",
@@ -3463,6 +3716,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Sora",
         "layouts": [
           {
+            "id": "sora",
             "klid": "00100c00",
             "href": "/00100c00",
             "name": "Sora",
@@ -3479,6 +3733,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Sotho",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -3493,6 +3748,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Spanish",
     "layouts": [
       {
+        "id": "spanish",
         "klid": "0000040a",
         "href": "/0000040a",
         "name": "Spanish",
@@ -3507,6 +3763,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Argentina)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3521,6 +3778,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Latin America)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3535,6 +3793,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Chile)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3549,6 +3808,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Honduras)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3563,6 +3823,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Guatemala)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3577,6 +3838,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (El Salvador)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3591,6 +3853,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Ecuador)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3605,6 +3868,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Dominican Republic)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3619,6 +3883,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Costa Rica)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3633,6 +3898,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Colombia)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3647,6 +3913,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Bolivia)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3661,6 +3928,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Mexico)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3675,6 +3943,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Nicaragua)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3689,6 +3958,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Puerto Rico)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3703,6 +3973,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Peru)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3717,6 +3988,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Paraguay)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3731,6 +4003,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Panama)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3745,6 +4018,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Spain)",
         "layouts": [
           {
+            "id": "spanish",
             "klid": "0000040a",
             "href": "/0000040a",
             "name": "Spanish",
@@ -3752,6 +4026,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "spanish-variation",
             "klid": "0001040a",
             "href": "/0001040a",
             "name": "Spanish Variation",
@@ -3766,6 +4041,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (United States)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3780,6 +4056,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Venezuela)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3794,6 +4071,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Spanish (Uruguay)",
         "layouts": [
           {
+            "id": "latin-american",
             "klid": "0000080a",
             "href": "/0000080a",
             "name": "Latin American",
@@ -3810,6 +4088,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Swedish",
     "layouts": [
       {
+        "id": "swedish",
         "klid": "0000041d",
         "href": "/0000041d",
         "name": "Swedish",
@@ -3830,6 +4109,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Syriac‎",
         "layouts": [
           {
+            "id": "syriac",
             "klid": "0000045a",
             "href": "/0000045a",
             "name": "Syriac",
@@ -3837,6 +4117,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "syriac-phonetic",
             "klid": "0001045a",
             "href": "/0001045a",
             "name": "Syriac Phonetic",
@@ -3859,6 +4140,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Tajik (Cyrillic)",
         "layouts": [
           {
+            "id": "tajik",
             "klid": "00000428",
             "href": "/00000428",
             "name": "Tajik",
@@ -3875,6 +4157,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Tamil",
     "layouts": [
       {
+        "id": "tamil-99",
         "klid": "00020449",
         "href": "/00020449",
         "name": "Tamil 99",
@@ -3889,6 +4172,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Tamil (India)",
         "layouts": [
           {
+            "id": "tamil",
             "klid": "00000449",
             "href": "/00000449",
             "name": "Tamil",
@@ -3896,6 +4180,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "tamil-99",
             "klid": "00020449",
             "href": "/00020449",
             "name": "Tamil 99",
@@ -3903,6 +4188,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "tamil-anjal",
             "klid": "00030449",
             "href": "/00030449",
             "name": "Tamil Anjal",
@@ -3925,6 +4211,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Tatar (Cyrillic)",
         "layouts": [
           {
+            "id": "tatar",
             "klid": "00010444",
             "href": "/00010444",
             "name": "Tatar",
@@ -3932,6 +4219,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "tatar-legacy",
             "klid": "00000444",
             "href": "/00000444",
             "name": "Tatar (Legacy)",
@@ -3948,6 +4236,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Telugu",
     "layouts": [
       {
+        "id": "telugu",
         "klid": "0000044a",
         "href": "/0000044a",
         "name": "Telugu",
@@ -3962,6 +4251,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Thai",
     "layouts": [
       {
+        "id": "thai-kedmanee",
         "klid": "0000041e",
         "href": "/0000041e",
         "name": "Thai Kedmanee",
@@ -3969,6 +4259,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "thai-kedmanee-non-shiftlock",
         "klid": "0002041e",
         "href": "/0002041e",
         "name": "Thai Kedmanee (non-ShiftLock)",
@@ -3976,6 +4267,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "thai-pattachote",
         "klid": "0001041e",
         "href": "/0001041e",
         "name": "Thai Pattachote",
@@ -3983,6 +4275,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "thai-pattachote-non-shiftlock",
         "klid": "0003041e",
         "href": "/0003041e",
         "name": "Thai Pattachote (non-ShiftLock)",
@@ -4003,6 +4296,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Tibetan",
         "layouts": [
           {
+            "id": "tibetan-prc",
             "klid": "00000451",
             "href": "/00000451",
             "name": "Tibetan (PRC)",
@@ -4010,6 +4304,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "tibetan-prc-updated",
             "klid": "00010451",
             "href": "/00010451",
             "name": "Tibetan (PRC) - Updated",
@@ -4026,6 +4321,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Tsonga",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -4040,6 +4336,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Turkish",
     "layouts": [
       {
+        "id": "turkish-f",
         "klid": "0001041f",
         "href": "/0001041f",
         "name": "Turkish F",
@@ -4047,6 +4344,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "turkish-q",
         "klid": "0000041f",
         "href": "/0000041f",
         "name": "Turkish Q",
@@ -4067,6 +4365,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Turkmen (Latin)",
         "layouts": [
           {
+            "id": "turkmen",
             "klid": "00000442",
             "href": "/00000442",
             "name": "Turkmen",
@@ -4083,6 +4382,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Ukrainian",
     "layouts": [
       {
+        "id": "ukrainian",
         "klid": "00000422",
         "href": "/00000422",
         "name": "Ukrainian",
@@ -4090,6 +4390,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "ukrainian-enhanced",
         "klid": "00020422",
         "href": "/00020422",
         "name": "Ukrainian (Enhanced)",
@@ -4104,6 +4405,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Upper Sorbian",
     "layouts": [
       {
+        "id": "sorbian-extended",
         "klid": "0001042e",
         "href": "/0001042e",
         "name": "Sorbian Extended",
@@ -4111,6 +4413,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "sorbian-standard",
         "klid": "0002042e",
         "href": "/0002042e",
         "name": "Sorbian Standard",
@@ -4118,6 +4421,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "isDefaultFromOtherLanguage": false
       },
       {
+        "id": "sorbian-standard-legacy",
         "klid": "0000042e",
         "href": "/0000042e",
         "name": "Sorbian Standard (Legacy)",
@@ -4132,6 +4436,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Urdu",
     "layouts": [
       {
+        "id": "urdu",
         "klid": "00000420",
         "href": "/00000420",
         "name": "Urdu",
@@ -4152,6 +4457,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Uyghur",
         "layouts": [
           {
+            "id": "uyghur",
             "klid": "00010480",
             "href": "/00010480",
             "name": "Uyghur",
@@ -4159,6 +4465,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
             "isDefaultFromOtherLanguage": false
           },
           {
+            "id": "uyghur-legacy",
             "klid": "00000480",
             "href": "/00000480",
             "name": "Uyghur (Legacy)",
@@ -4181,6 +4488,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Uzbek (Cyrillic)",
         "layouts": [
           {
+            "id": "uzbek-cyrillic",
             "klid": "00000843",
             "href": "/00000843",
             "name": "Uzbek Cyrillic",
@@ -4195,6 +4503,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Uzbek (Latin)",
         "layouts": [
           {
+            "id": "us",
             "klid": "00000409",
             "href": "/00000409",
             "name": "US",
@@ -4211,6 +4520,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Venda",
     "layouts": [
       {
+        "id": "us",
         "klid": "00000409",
         "href": "/00000409",
         "name": "US",
@@ -4225,6 +4535,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Vietnamese",
     "layouts": [
       {
+        "id": "vietnamese",
         "klid": "0000042a",
         "href": "/0000042a",
         "name": "Vietnamese",
@@ -4239,6 +4550,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Welsh",
     "layouts": [
       {
+        "id": "united-kingdom-extended",
         "klid": "00000452",
         "href": "/00000452",
         "name": "United Kingdom Extended",
@@ -4253,6 +4565,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Wolof",
     "layouts": [
       {
+        "id": "wolof",
         "klid": "00000488",
         "href": "/00000488",
         "name": "Wolof",
@@ -4267,6 +4580,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
     "name": "Yiddish",
     "layouts": [
       {
+        "id": "hebrew-standard",
         "klid": "0002040d",
         "href": "/0002040d",
         "name": "Hebrew (Standard)",
@@ -4287,6 +4601,7 @@ export const LANGUAGES_TREE_DATA: LanguageTreeData = [
         "name": "Yoruba",
         "layouts": [
           {
+            "id": "yoruba",
             "klid": "0000046a",
             "href": "/0000046a",
             "name": "Yoruba",
