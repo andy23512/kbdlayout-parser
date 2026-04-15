@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { LANGUAGES_TREE_DATA } from "./const/languages-tree-data.ts";
+import { LANGUAGES_TREE_DATA } from "../res/languages-tree-data.ts";
 import { generateLayoutId } from "./layout-id.ts";
 import type {
   LanguageTreeData,

@@ -10,7 +10,7 @@ import type {
 
 const DEFAULT_SOURCE_PATH = "res/languages.html";
 const DEFAULT_JSON_OUTPUT_PATH = "res/languages-tree-data.json";
-const DEFAULT_TS_OUTPUT_PATH = "src/const/languages-tree-data.ts";
+const DEFAULT_TS_OUTPUT_PATH = "res/languages-tree-data.ts";
 type CheerioAcceptedElement = Parameters<cheerio.CheerioAPI>[0];
 
 function isElementWithTagName(element: unknown, tagName: string): boolean {

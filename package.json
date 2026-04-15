@@ -22,6 +22,7 @@
   "dependencies": {
     "cheerio": "^1.2.0",
     "human-object-diff": "^3.0.0",
+    "prettier": "^3.8.3",
     "slugify": "^1.6.8"
   }
 }

@@ -23,6 +23,6 @@ The languages tree data currently includes `klid` and `href` inside each layout 
 ## Impact
 
 - Affected code: languages tree parser/generator models, verification scripts, parser tests, and generated constants.
-- Affected artifacts: `res/languages-tree-data.json` and `src/const/languages-tree-data.ts`.
+- Affected artifacts: `res/languages-tree-data.json` and `res/languages-tree-data.ts`.
 - API/data contract: layout objects remove `klid` and `href`.
 - Dependencies: no new dependency expected.

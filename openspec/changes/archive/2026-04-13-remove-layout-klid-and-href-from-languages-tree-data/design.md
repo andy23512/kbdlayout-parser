@@ -51,7 +51,7 @@ Constraints:
 1. Update `LanguageLayoutRef` model to remove `klid` and `href`.
 2. Update parser layout mapping to emit only supported layout fields.
 3. Update tests/verification to assert removed fields are absent.
-4. Regenerate `res/languages-tree-data.json` and `src/const/languages-tree-data.ts`.
+4. Regenerate `res/languages-tree-data.json` and `res/languages-tree-data.ts`.
 5. Rollback strategy: revert commit if downstream breakage requires temporary compatibility period.
 
 ## Open Questions

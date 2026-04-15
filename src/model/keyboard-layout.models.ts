@@ -8,6 +8,10 @@ export type KeyboardLayoutKey = Record<
   { type: "text" | "dead-key"; value: string }
 >;
 
+export type KeyboardLayoutLayoutMap = Partial<
+  Record<WSKCode, Partial<KeyboardLayoutKey>>
+>;
+
 /**
  * Data of a keyboard layout (OS layout), which map key codes to keyboard layout keys
  */
@@ -15,5 +19,5 @@ export interface KeyBoardLayout {
   id: string;
   name: string;
   reference: string;
-  layout: Partial<Record<WSKCode, Partial<KeyboardLayoutKey>>>;
+  layout: KeyboardLayoutLayoutMap;
 }

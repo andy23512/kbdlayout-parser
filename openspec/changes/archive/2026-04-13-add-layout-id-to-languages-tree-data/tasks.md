@@ -13,7 +13,7 @@
 ## 3. Update Artifacts And Verification
 
 - [x] 3.1 Update artifact verification to require layout `id` presence and consistency between JSON and TS outputs
-- [x] 3.2 Regenerate `res/languages-tree-data.json` and `src/const/languages-tree-data.ts` with new layout `id` fields
+- [x] 3.2 Regenerate `res/languages-tree-data.json` and `res/languages-tree-data.ts` with new layout `id` fields
 - [x] 3.3 Run parser/tests/verification scripts and fix any regressions
 
 ## 4. Document Breaking Contract Change

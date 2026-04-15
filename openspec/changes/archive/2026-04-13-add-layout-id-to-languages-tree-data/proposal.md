@@ -24,6 +24,6 @@ Languages tree data currently includes layout display metadata but no stable lay
 ## Impact
 
 - Affected code: `src/layout-id.ts`, `src/convert-layouts.ts`, `src/languages-tree.ts`, `src/model/languages-tree.models.ts`, parser tests, artifact verification logic, and generated constants.
-- Affected artifacts: `res/languages-tree-data.json` and `src/const/languages-tree-data.ts`.
+- Affected artifacts: `res/languages-tree-data.json` and `res/languages-tree-data.ts`.
 - API/data contract: layout entries now include required `id`.
 - Dependencies: no new external dependency expected; reuse existing `slugify` behavior already present in repository.

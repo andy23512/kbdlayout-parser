@@ -13,7 +13,7 @@
 ## 3. Strengthen Verification And Regenerate Artifacts
 
 - [x] 3.1 Update artifact verification to fail if any layout object includes `klid` or `href`
-- [x] 3.2 Regenerate `res/languages-tree-data.json` and `src/const/languages-tree-data.ts` with reduced layout objects
+- [x] 3.2 Regenerate `res/languages-tree-data.json` and `res/languages-tree-data.ts` with reduced layout objects
 - [x] 3.3 Run parser/tests/verification scripts and fix regressions
 
 ## 4. Document Breaking Contract Change
