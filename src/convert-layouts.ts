@@ -98,6 +98,9 @@ for (const link of links) {
         }
       });
   });
+  if (layouts.length === 0) {
+    continue;
+  }
 
   const $ = cheerio.load(xmlContent, { xml: true });
   const layout: Record<string, Partial<KeyboardLayoutKey>> = {};
