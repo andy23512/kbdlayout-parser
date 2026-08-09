@@ -9,6 +9,7 @@ type CompactStateKey = "u" | "s" | "a" | "A";
 type CompactEntry = {
   v: string;
   t?: 1;
+  d?: Record<string, string>;
 };
 
 type CompactLayoutMap = Record<
@@ -112,7 +113,18 @@ for (const link of links) {
             `DeadKeyTable for key ${keyCode} with result ${selector} does not have an Accent attribute.`,
           );
         }
-        obj[key] = { v: accent, t: 1 };
+        const results = $(deadKeyTable).find("Result");
+        const deadKeyResults = Object.fromEntries(
+          results
+            .map((_, element) => {
+              const deadKeyResultText = $(element).attr("Text") as string;
+              const deadKeyResultWith = $(element).attr("With") as string;
+              return { with: deadKeyResultWith, text: deadKeyResultText };
+            })
+            .get()
+            .map(({ with: withAttr, text }) => [withAttr, text]),
+        );
+        obj[key] = { v: accent, t: 1, d: deadKeyResults };
       }
     }
     if (Object.keys(obj).length === 0) {
@@ -149,6 +161,49 @@ const safeCompactMeta = compactMeta
   .replaceAll("\u2028", String.raw`\u2028`)
   .replaceAll("\u2029", String.raw`\u2029`);
 
-const output = `import type { KeyboardLayout } from "../model/keyboard-layout.models.ts";type K="u"|"s"|"a"|"A";type V={v:string;t?:1};type L=Record<string,Partial<Record<K,V>>>;const C=${safeCompactLayouts} as Record<string,L>;const M=${safeCompactMeta} as [string,string,string,string][];const E=(l:L):KeyboardLayout["layout"]=>{const o:Record<string,Record<string,{type:"text"|"dead-key";value:string}>>={};for(const c in l){const r=l[c]!;const n:Record<string,{type:"text"|"dead-key";value:string}>={};for(const k in r){const v=r[k as K]!;n[k==="u"?"unmodified":k==="s"?"withShift":k==="a"?"withAltGraph":"withShiftAltGraph"]={type:v.t===1?"dead-key":"text",value:v.v};}o[c]=n;}return o as KeyboardLayout["layout"]};export const KEYBOARD_LAYOUTS_FROM_KBDLAYOUT:KeyboardLayout[]=M.map(([id,name,reference,layoutKey])=>({id,name,reference,layout:E(C[layoutKey]!)}));\n`;
+const outputContent = `
+import type { KeyboardLayout } from "../../model/keyboard-layout.models.js";
+type K = "u" | "s" | "a" | "A";
+type V = { v: string; t?: 1; d?: Record<string, string>; };
+type L = Record<string, Partial<Record<K, V>>>;
 
-writeFileSync("res/keyboard-layouts.ts", output, "utf-8");
+const C = ${safeCompactLayouts} as Record<string, L>;
+const M = ${safeCompactMeta} as [string, string, string, string][];
+
+const E = (l: L): KeyboardLayout["layout"] => {
+  const o: Record<string, Record<string, { type: "text" | "dead-key"; value: string }>> = {};
+  for (const c in l) {
+    const r = l[c]!;
+    const n: Record<string, { type: "text" | "dead-key"; value: string }> = {};
+    for (const k in r) {
+      const v = r[k as K]!;
+      n[
+        k === "u" ? "unmodified"
+        : k === "s" ? "withShift"
+        : k === "a" ? "withAltGraph"
+        : "withShiftAltGraph"
+      ] = { type: v.t === 1 ? "dead-key" : "text", value: v.v, deadKeyResults: v.d};
+    }
+    o[c] = n;
+  }
+  return o as KeyboardLayout["layout"];
+};
+
+export const KEYBOARD_LAYOUTS_FROM_KBDLAYOUT: KeyboardLayout[] = M.map(
+  ([id, name, reference, layoutKey]) => ({
+    id,
+    name,
+    reference,
+    layout: E(C[layoutKey]!),
+  })
+);
+`;
+
+const output = outputContent
+  .split("\n")
+  .map((line) => line.trim())
+  .filter((line) => line.length > 0)
+  .join("")
+  .concat("\n");
+
+writeFileSync("res/keyboard-layouts-from-kbdlayout.ts", output, "utf-8");
