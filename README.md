@@ -38,7 +38,7 @@ Notes:
 
 ## Requirements
 
-- Node.js 18+ (for built-in `fetch`)
+- Node.js 22+ (for built-in `fetch`; the scripts run `.ts` files through `ts-node`, which was only verified to work on Node 22 and 24)
 - Yarn 4 (project uses `yarn@4.9.2`)
 
 Install dependencies:

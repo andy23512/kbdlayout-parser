@@ -1,6 +1,9 @@
 {
   "name": "kbdlayout-parser",
   "packageManager": "yarn@4.9.2",
+  "engines": {
+    "node": ">=22"
+  },
   "type": "module",
   "scripts": {
     "fetch-index": "ts-node src/fetch-index.ts",
