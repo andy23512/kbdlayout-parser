@@ -6,6 +6,7 @@
   },
   "type": "module",
   "scripts": {
+    "test": "node --test src/*.test.ts",
     "fetch-index": "ts-node src/fetch-index.ts",
     "fetch-languages": "ts-node src/fetch-languages.ts",
     "parse-languages-tree": "ts-node src/parse-languages-tree.ts",
