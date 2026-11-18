@@ -1,8 +1,11 @@
 import * as cheerio from "cheerio";
 import { readFileSync } from "node:fs";
 
-export function getDriverLinks(): string[] {
-  const indexPageContent = readFileSync("res/index.html", "utf-8");
+export function getDriverLinks(indexPath = "res/index.html"): string[] {
+  return parseDriverLinks(readFileSync(indexPath, "utf-8"));
+}
+
+export function parseDriverLinks(indexPageContent: string): string[] {
   const $ = cheerio.load(indexPageContent);
 
   const tables = $("table");
