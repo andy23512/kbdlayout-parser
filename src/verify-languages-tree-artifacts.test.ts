@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import {
   cpSync,
+  existsSync,
   mkdtempSync,
   rmSync,
   writeFileSync,
@@ -103,7 +104,9 @@ function assertFails(
 }
 
 describe("verify-languages-tree-artifacts", () => {
-  it("passes on the committed artifacts", () => {
+  // `res/` is gitignored, so on a fresh clone (CI) there are no artifacts to check.
+  const hasArtifacts = existsSync(join(ROOT, "res/languages-tree-data.json"));
+  it("passes on the committed artifacts", { skip: !hasArtifacts && "res/ is not in the repository" }, () => {
     const result = spawnSync(
       process.execPath,
       ["src/verify-languages-tree-artifacts.ts"],

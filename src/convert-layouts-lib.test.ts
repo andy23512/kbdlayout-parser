@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { existsSync } from "node:fs";
 import { describe, it } from "node:test";
 import {
   buildKeyboardLayoutsModule,
@@ -334,7 +335,10 @@ describe("buildKeyboardLayoutsModule", () => {
 // Regression test on the real, committed data: regenerating from res/ must
 // reproduce res/keyboard-layouts-from-kbdlayout.ts exactly. If this fails
 // after refreshing res/, re-run `yarn convert-layouts` and commit the result.
-describe("convert-layouts on the committed data", () => {
+// `res/` is gitignored (scraped data, ~18 MB), so this only runs where it exists
+// locally; on a fresh clone (CI) it is skipped.
+const HAS_SCRAPED_DATA = existsSync("res/index.html");
+describe("convert-layouts on the committed data", { skip: !HAS_SCRAPED_DATA && "res/ is not in the repository" }, () => {
   it("reproduces res/keyboard-layouts-from-kbdlayout.ts", async () => {
     const { readFileSync } = await import("node:fs");
     const { getDriverLinks } = await import("./utils.ts");
