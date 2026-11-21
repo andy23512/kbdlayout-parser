@@ -1,5 +1,7 @@
 # kbdlayout-parser
 
+[![CI](https://github.com/andy23512/kbdlayout-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/andy23512/kbdlayout-parser/actions/workflows/ci.yml)
+
 Parse data from [kbdlayout.info](https://kbdlayout.info/) into deterministic artifacts used by this repository.
 
 ## What This Repository Generates
